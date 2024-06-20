@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        android:id="@+id/back"
+        >
+        <ImageView
+            android:src="@drawable/ic_baseline_chevron_left_24"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+
+            />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="12dp"
+        android:id="@+id/titleHeadLL"
+
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:text="Life"
+
+
+            android:textColor="@color/main_color"
+            android:fontFamily="@font/poppins_bold"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="4dp"
+            android:text="Skills"
+
+
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+
+            />
+    </LinearLayout>
+    <EditText
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/titleHeadLL"
+        android:background="@drawable/edittext_back"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="24dp"
+        android:hint="Full Name"
+        android:fontFamily="@font/poppins_regular"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/fullName"
+        />
+    <EditText
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/fullName"
+        android:background="@drawable/edittext_back"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="Email Address"
+        android:fontFamily="@font/poppins_regular"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailAddress"
+        />
+
+    <EditText
+
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emailAddress"
+        android:background="@drawable/edittext_back"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:fontFamily="@font/poppins_regular"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/main_color"
+        android:layout_below="@+id/password"
+        android:background="@drawable/btn_back"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:id="@+id/signup"
+        android:fontFamily="@font/poppins_semibold"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/login"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Now"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/main_color"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

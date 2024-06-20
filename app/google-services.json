@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "758689244087",
+    "project_id": "reset-life-skill-app",
+    "storage_bucket": "reset-life-skill-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758689244087:android:e4b3a28a00ef6ece947e32",
+        "android_client_info": {
+          "package_name": "in.softment.lifeskillsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758689244087-urisd2pn7ilj4gdvhinfbcsegpdi26p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.softment.lifeskillsapp",
+            "certificate_hash": "cfc3bfe745464da7513887e3a2b4c43655b4ccc8"
+          }
+        },
+        {
+          "client_id": "758689244087-88fmj1qkeo8gmubqvuipboe29oe1pe67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA11rg-R7Msl5wvERBMEa5E3jDTv7dYDgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758689244087-88fmj1qkeo8gmubqvuipboe29oe1pe67.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "758689244087-rivsqgh7u70h1qg76kch4fmj247rcna6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.softment.RESET-Life-Skills-App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

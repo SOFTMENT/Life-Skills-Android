@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/bottomView"
+    android:layout_marginBottom="16dp"
+    android:scrollbars="none">
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment.QuoteFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_color"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="17sp"
+        android:text="Today's Message"
+        android:id="@+id/todayMessageLabel"
+        />
+    
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/share"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/todayMessageLabel"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:text="23"
+        android:id="@+id/day"
+        />
+
+    <LinearLayout
+        android:id="@+id/monthYearLL"
+        android:layout_below="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/white"
+            android:text="Jan"
+            android:id="@+id/month"
+            />
+        <TextView
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/white"
+            android:text="2023"
+            android:id="@+id/year"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/monthYearLL"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:text="Drug"
+        android:id="@+id/title"
+        />
+    <TextView
+        android:layout_marginBottom="6dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:text="This one see ms obvious but it’s worth repeating. One Pill Can Kill. It’s just that simple.
+In today’s world, with the flood of fentanyl into our communities, teenage overdose is skyrocketing. In 2021, fentanyl was identified in 77.14% of adolescent overdose deaths, compared with 13.26% for benzodiazepines, 9.77% for methamphetamine, 7.33% for cocaine, 5.76% for prescription opioids, and 2.27% for heroin. Fentanyl is a synthetic opioid that is up to 50 times stronger than heroin and 100 times stronger than morphine. Unless you have received medication via prescription from your personal doctor, you have no way of knowing what’s really in it. Buying drugs online via social media is an almost pure guarantee that you’ll receive more than you bargained for. Doing drugs clouds your senses and will shorten your life."
+        android:id="@+id/quote"
+        />
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <View
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

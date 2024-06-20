@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/btn_back"
+    android:backgroundTint="#96343434"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Movin Presents : Suaturday "
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/webUrl"
+        android:layout_marginBottom="16dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="www.google.com"
+        android:textColor="#1273BF"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13sp"
+        android:focusable="true" />
+</LinearLayout>
